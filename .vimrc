@@ -80,5 +80,6 @@ function! ToggleMouse()
     endif
 endfunction
 
-
-
+"When Pasting on vim window auto intend feature may destro the intendation
+"In these cases, use the paste/nopaste option to disable / enable the auto-indent feature:
+set pastetoggle=<F3>
